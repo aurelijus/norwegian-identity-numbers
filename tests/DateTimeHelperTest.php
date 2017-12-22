@@ -1,14 +1,12 @@
 <?php
 
-namespace Estina\IdentityNumber\Tests;
+namespace Estina\IdentityNumber\Test;
 
 use Estina\IdentityNumber\Helpers\DateTimeHelper;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class DateTimeHelperTest
- *
- * @package Estina\IdentityNumber\Tests
+ * @package Estina\IdentityNumber\Test
  */
 class DateTimeHelperTest extends TestCase
 {
