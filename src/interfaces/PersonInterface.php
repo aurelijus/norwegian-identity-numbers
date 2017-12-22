@@ -1,11 +1,11 @@
 <?php
 
-namespace Estina\IdentityNumber\Interfaces;
+namespace Estina\NorwegianIdentityNumber\Interfaces;
 
 use DateTime;
 
 /**
- * @package Estina\IdentityNumber\Interfaces
+ * @package Estina\NorwegianIdentityNumber\Interfaces
  */
 interface PersonInterface
 {

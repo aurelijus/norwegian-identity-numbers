@@ -1,9 +1,9 @@
 <?php
 
-namespace Estina\IdentityNumber\Interfaces;
+namespace Estina\NorwegianIdentityNumber\Interfaces;
 
 /**
- * @package Estina\IdentityNumber\Interfaces
+ * @package Estina\NorwegianIdentityNumber\Interfaces
  */
 Interface ValidatorInterface
 {

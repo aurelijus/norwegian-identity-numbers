@@ -1,14 +1,14 @@
 <?php
 
-namespace Estina\IdentityNumber;
+namespace Estina\NorwegianIdentityNumber;
 
-use Estina\IdentityNumber\Helpers\DateTimeHelper;
-use Estina\IdentityNumber\Helpers\ReduceDigitsHelper;
-use Estina\IdentityNumber\Interfaces\ControlSequenceInterface;
-use Estina\IdentityNumber\Interfaces\IdentificationInterface;
+use Estina\NorwegianIdentityNumber\Helpers\DateTimeHelper;
+use Estina\NorwegianIdentityNumber\Helpers\ReduceDigitsHelper;
+use Estina\NorwegianIdentityNumber\Interfaces\ControlSequenceInterface;
+use Estina\NorwegianIdentityNumber\Interfaces\IdentificationInterface;
 
 /**
- * @package Estina\IdentityNumber
+ * @package Estina\NorwegianIdentityNumber
  */
 class IdentifyNumberType implements IdentificationInterface
 {

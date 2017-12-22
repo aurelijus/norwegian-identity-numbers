@@ -1,11 +1,11 @@
 <?php
 
-namespace Estina\IdentityNumber;
+namespace Estina\NorwegianIdentityNumber;
 
-use Estina\IdentityNumber\Interfaces\ValidatorInterface;
+use Estina\NorwegianIdentityNumber\Interfaces\ValidatorInterface;
 
 /**
- * @package Estina\IdentityNumber
+ * @package Estina\NorwegianIdentityNumber
  */
 class IdentifyNumberValidator implements ValidatorInterface
 {

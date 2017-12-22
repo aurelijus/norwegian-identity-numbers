@@ -1,14 +1,14 @@
 <?php
 
-namespace Estina\IdentityNumber;
+namespace Estina\NorwegianIdentityNumber;
 
 use DateTime;
-use Estina\IdentityNumber\Helpers\DateTimeHelper;
-use Estina\IdentityNumber\Interfaces\IdentificationInterface;
-use Estina\IdentityNumber\Interfaces\PersonInterface;
+use Estina\NorwegianIdentityNumber\Helpers\DateTimeHelper;
+use Estina\NorwegianIdentityNumber\Interfaces\IdentificationInterface;
+use Estina\NorwegianIdentityNumber\Interfaces\PersonInterface;
 
 /**
- * @package Estina\IdentityNumber
+ * @package Estina\NorwegianIdentityNumber
  */
 class Person implements PersonInterface
 {

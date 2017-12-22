@@ -1,13 +1,13 @@
 <?php
 
-namespace Estina\IdentityNumber\Test;
+namespace Estina\NorwegianIdentityNumber\Test;
 
-use Estina\IdentityNumber\Interfaces\IdentificationInterface;
-use Estina\IdentityNumber\Person;
+use Estina\NorwegianIdentityNumber\Interfaces\IdentificationInterface;
+use Estina\NorwegianIdentityNumber\Person;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @package Estina\IdentityNumber\Test
+ * @package Estina\NorwegianIdentityNumber\Test
  */
 class PersonTest extends TestCase
 {

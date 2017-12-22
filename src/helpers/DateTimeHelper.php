@@ -1,11 +1,11 @@
 <?php
 
-namespace Estina\IdentityNumber\Helpers;
+namespace Estina\NorwegianIdentityNumber\Helpers;
 
 use DateTime;
 
 /**
- * @package Estina\IdentityNumber\Helpers
+ * @package Estina\NorwegianIdentityNumber\Helpers
  */
 class DateTimeHelper
 {

@@ -1,13 +1,11 @@
 <?php
 
-namespace Estina\IdentityNumber\Helpers;
+namespace Estina\NorwegianIdentityNumber\Helpers;
 
-use Estina\IdentityNumber\Interfaces\ControlSequenceInterface;
+use Estina\NorwegianIdentityNumber\Interfaces\ControlSequenceInterface;
 
 /**
- * Class ReduceDigitsHelper
- *
- * @package Estina\IdentityNumber\Helpers
+ * @package Estina\NorwegianIdentityNumber\Helpers
  */
 class ReduceDigitsHelper implements ControlSequenceInterface
 {

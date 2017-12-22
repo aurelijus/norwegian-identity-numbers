@@ -1,12 +1,12 @@
 <?php
 
-namespace Estina\IdentityNumber\Test;
+namespace Estina\NorwegianIdentityNumber\Test;
 
-use Estina\IdentityNumber\Helpers\DateTimeHelper;
+use Estina\NorwegianIdentityNumber\Helpers\DateTimeHelper;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @package Estina\IdentityNumber\Test
+ * @package Estina\NorwegianIdentityNumber\Test
  */
 class DateTimeHelperTest extends TestCase
 {

@@ -1,11 +1,9 @@
 <?php
 
-namespace Estina\IdentityNumber\Interfaces;
+namespace Estina\NorwegianIdentityNumber\Interfaces;
 
 /**
- * Interface ControlSequenceInterface
- *
- * @package Estina\IdentityNumber\Interfaces
+ * @package Estina\NorwegianIdentityNumber\Interfaces
  */
 interface ControlSequenceInterface
 {

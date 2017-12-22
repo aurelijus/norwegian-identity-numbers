@@ -1,11 +1,11 @@
 <?php
 
-namespace Estina\IdentityNumber;
+namespace Estina\NorwegianIdentityNumber;
 
 use InvalidArgumentException;
 
 /**
- * @package Estina\IdentityNumber
+ * @package Estina\NorwegianIdentityNumber
  */
 class IdentityNumberStruct
 {
