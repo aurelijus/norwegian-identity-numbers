@@ -20,11 +20,13 @@
     "psr-4": {
       "Estina\\IdentityNumber\\": "src"
     },
-    "exclude-from-classmap": [
-      "/tests/"
-    ]
   },
-  "minimum-stability": "dev",
+  "autoload-dev": {
+    "psr-4": {
+      "Estina\\IdentityNumber\\Test\\": "tests"
+    }
+  },
+  "minimum-stability": "stable",
   "require": {
     "php": "^7.0"
   },
