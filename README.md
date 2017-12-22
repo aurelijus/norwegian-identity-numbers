@@ -1,5 +1,9 @@
 # Norwegian Identity Number (National Id) Validator
 
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![Build Status][ico-travis]][link-travis]
+
 > The Norwegian national ID number is an 11-digit personal identifier. Everyone on the Norwegian National Registry has a national ID number.
 > Validate Norwegian national identity numbers.
 
@@ -65,3 +69,9 @@ $person = new Person('01010101944');
 $person->getBirthday(); // DateTime
 $person->getGender(); // PersonInterface::FEMALE or PersonInterface::MALE
 ```
+
+[ico-version]: https://img.shields.io/packagist/v/estina/norwegian-identity-numbers.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-travis]: https://api.travis-ci.org/Estina/norwegian-identity-numbers.svg?branch=master&style=flat-square
+[link-packagist]: https://packagist.org/packages/estina/norwegian-identity-numbers
+[link-travis]: https://travis-ci.org/Estina/norwegian-identity-numbers
