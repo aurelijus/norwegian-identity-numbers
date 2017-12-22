@@ -1,0 +1,34 @@
+{
+  "name": "estina/norwegian-identity-numbers",
+  "description": "Norwegian National ID number",
+  "type": "library",
+  "homepage": "https://github.com/Estina/norwegian-identity-numbers.git",
+  "keywords": [
+    "norwegian",
+    "personal identity number",
+    "social security number",
+    "fødselsnummer"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Donatas Navidonskis",
+      "email": "donatas@navidonskis.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Estina\\IdentityNumber\\": "src"
+    },
+    "exclude-from-classmap": [
+      "/tests/"
+    ]
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  }
+}
