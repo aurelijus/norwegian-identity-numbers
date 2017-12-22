@@ -28,7 +28,7 @@ composer require estina/norwegian-identity-numbers
 ### Validator
 
 ```php
-use Estina\IdentityNumber\IdentifyNumberValidator;
+use Estina\NorwegianIdentityNumber\IdentifyNumberValidator;
 
 $number = '01010101944';
 $isValidNumber = IdentifyNumberValidator::isValid($number); // true
@@ -41,8 +41,8 @@ $isValidNumber = null !== $identifyNumberType->identify(); // true
 ### Identify Number Type
 
 ```php
-use Estina\IdentityNumber;
-use Estina\IdentityNumber\Interfaces;
+use Estina\NorwegianIdentityNumber;
+use Estina\NorwegianIdentityNumber\Interfaces;
 
 $number = '01010101944';
 $identifyNumberType = IdentifyNumberType::factory($number);
@@ -62,8 +62,8 @@ $identifyNumberType->isDNumber(); // false/true
 ### Person
 
 ```php
-use Estina\IdentityNumber;
-use Estina\IdentityNumber\Interfaces;
+use Estina\NorwegianIdentityNumber;
+use Estina\NorwegianIdentityNumber\Interfaces;
 
 $person = new Person('01010101944');
 $person->getBirthday(); // DateTime
