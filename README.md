@@ -70,8 +70,8 @@ $person->getBirthday(); // DateTime
 $person->getGender(); // PersonInterface::FEMALE or PersonInterface::MALE
 ```
 
-[ico-version]: https://img.shields.io/packagist/v/estina/norwegian-identity-numbers.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/Estina/norwegian-identity-numbers.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://api.travis-ci.org/Estina/norwegian-identity-numbers.svg?branch=master&style=flat-square
-[link-packagist]: https://packagist.org/packages/estina/norwegian-identity-numbers
+[link-packagist]: https://packagist.org/packages/Estina/norwegian-identity-numbers
 [link-travis]: https://travis-ci.org/Estina/norwegian-identity-numbers
